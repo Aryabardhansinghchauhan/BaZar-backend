@@ -19,7 +19,7 @@ app.use(express.json())
 app.use(cookieParser())
 
 app.use(cors({
-  origin: ["http://localhost:5174", "https://ba-zar-frontend.vercel.app/"],
+  origin: ["http://localhost:5174", "https://ba-zar-frontend.vercel.app"],
   credentials: true
 }))
 
